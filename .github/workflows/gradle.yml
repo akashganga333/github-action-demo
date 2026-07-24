@@ -46,4 +46,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/springboot-demo:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/github-action-demo:latest
